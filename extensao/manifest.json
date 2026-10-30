@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Meu PreMiD Local",
+  "version": "1.0",
+  "description": "Envia o status de navegação para o Discord Rich Presence",
+  "permissions": [
+    "tabs",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "http://localhost:3000/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
